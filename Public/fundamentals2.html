@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <script defer type="text/javascript" src="JS/fundamentals2.js"></script>
+    <title>Button time</title>
+  </head>
+  <body>
+    <p id="dateTime">Not Here</p>
+    <button onclick="document.getElementById('dateTime').innerHTML = Date();">
+      Date
+    </button>
+
+    <p id="dateTimeF">Not Here</p>
+    <button
+      onclick="document.getElementById('dateTimeF').innerHTML = dateTime();"
+    >
+      Date
+    </button>
+
+    <p id="dateTime2">Not Here</p>
+    <button onclick="dateTime2('dateTime2');">Date</button>
+  </body>
+</html>
