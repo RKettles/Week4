@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 task 6</title>
+    <script type="text/javascript" src="JS/task6.js"></script>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    
+<form action="">
+<fieldset>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>6 Apples</td>
+            <td><input type="number" name="entry" id="e1" value="2"></td>
+        </tr>
+        <tr>
+            <td>Bunch Of Grapes</td>
+            <td><input type="number" name="entry" id="e2" value="3"></td>
+        </tr>
+        <tr>
+            <td>12 Oranges</td>
+            <td><input type="number" name="entry" id="e3" value="3"></td>
+        </tr>
+    </table>
+    <p>Discount</p><input type="number" name="Discount" id="d1" value="25">
+
+   <br><input type="button" value="calculate" onclick="totup(this.form)">
+</fieldset>
+
+
+</form>
+
+<p>Total Cost <span id="totalled"></span></p>
+</body>
+</html>
